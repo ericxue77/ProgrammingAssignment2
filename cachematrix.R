@@ -3,6 +3,8 @@
 
 ## Write a short comment describing this function
 
+## This function will get an input matrix, and then will create the cache for the inverse matrix
+
 makeCacheMatrix <- function(x = matrix()) {
   
   m<-NULL
@@ -24,7 +26,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-## This will cache the invers matrix
+
+## This will return the invers matrix.
+## If the invers matrix is cached, then it will return from the cache
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
